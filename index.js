@@ -108,7 +108,7 @@ if(window.matchMedia('(max-width: 768px)').matches){
       $(".rock").css("left","7%");
       $(".pic,.cmp").css("display", "block");
       $(".pic,.cmp").css("z-index", +2);
-      div = randiv("paper");
+      div = randiv("rock");
         $("."+div).css("top","36%");
             $("."+div).css("left","61%");
       $("." + div).addClass("cimage");
