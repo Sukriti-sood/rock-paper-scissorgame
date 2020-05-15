@@ -105,8 +105,8 @@ if(window.matchMedia('(max-width: 768px)').matches){
         tom1.play();
       pr = "rock";
       $(".rock").addClass("pressed");
+        $(".rock").css("top","35%");
       $(".rock").css("left","7%");
-       $(".rock").css("top","35%");
       $(".pic,.cmp").css("display", "block");
       $(".pic,.cmp").css("z-index", +2);
       div = randiv("rock");
