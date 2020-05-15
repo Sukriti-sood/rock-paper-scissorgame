@@ -106,6 +106,7 @@ if(window.matchMedia('(max-width: 768px)').matches){
       pr = "rock";
       $(".rock").addClass("pressed");
       $(".rock").css("left","7%");
+       $(".rock").css("top","35%");
       $(".pic,.cmp").css("display", "block");
       $(".pic,.cmp").css("z-index", +2);
       div = randiv("rock");
