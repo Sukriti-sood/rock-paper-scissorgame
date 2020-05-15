@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:Semi-Bold&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="100x100" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <title>Rock Paper Scissor Game</title>
+</head>
+<body>
+
+  <ul class="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+  <iframe src="music.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  </iframe>
+  <div class="heading" >
+    <div class="sens">
+      <p class="sen">ROCK</p>
+      <p class="sen">PAPER</p>
+      <p class="sen">SCISSORS</p>
+    </div>
+    <div class="score">
+      <p class="word">SCORE</p>
+      <p class="num">0</p>
+
+    </div>
+  </div>
+  <div class="center">
+    <div class="pic">
+      YOU PICKED
+    </div>
+    <div class="cmp">
+    TEDDY PICKED
+    </div>
+    <hr noshade="noshade" class="lin1">
+    <hr noshade="noshade" class="lin2">
+    <hr noshade="noshade" class="lin3">
+    <div class="paper icon">
+<img src="images/icon-paper.svg" alt="" class="imag ipaper" >
+    </div>
+    <div class="scissor icon">
+<img src="images/icon-scissors.svg" alt="" class="imag iscissor">
+    </div>
+    <div class="rock icon">
+<img src="images/icon-rock.svg" alt="" class="imag irock">
+    </div>
+    <div class="resu">
+      YOU WIN
+    </div>
+    <div class="again">
+      PLAY AGAIN
+    </div>
+  </div>
+  <div class="rules">
+  <div class="ruleh">
+  <strong>RULES</strong>
+  </div>
+  <img src="images/icon-close.svg" alt="" class="close">
+  <img src="images/image-rules.svg" alt="" class="irul">
+  </div>
+  <div class="foot">
+  <div class="rul">
+    RULES
+  </div>
+</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
